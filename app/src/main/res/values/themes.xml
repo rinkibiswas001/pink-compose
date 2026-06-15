@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- res/values/themes.xml -->
+<resources>
+    <style name="Theme.MyComposeApp" parent="android:Theme.Material.Light.NoActionBar">
+        <!-- Transparent status bar — lets your gradient show through -->
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <!-- Transparent nav bar too -->
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <!-- Light status bar icons (white) since your bg is dark -->
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+</resources>
