@@ -1,5 +1,6 @@
 # Pink Compose
 
+CI Test
 Pink Compose is a modern Android application built with Jetpack Compose, designed to explore and manage recipes.
 
 ## Features
