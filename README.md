@@ -1,6 +1,5 @@
 # Pink Compose
 
-CI Test
 Pink Compose is a modern Android application built with Jetpack Compose, designed to explore and manage recipes.
 
 ## Features
@@ -55,20 +54,45 @@ com.pinkcompose/
 ## App Flow
 ```
 Login Screen
-│
-▼
+    │
+    ▼
 Home Screen (banner + categories + recipe list)
-│
-▼
+    │
+    ▼
 Recipe Category Screen
-│
-▼
+    │
+    ▼
 Recipe List Screen
-│
-▼
+    │
+    ▼
 Recipe Details Screen (ingredients + cooking steps)
 
 Profile Screen (accessible via bottom nav / drawer)
+```
+
+## CI Pipeline
+
+The project uses **GitHub Actions** to automate the build process.
+
+## Workflow
+
+```
+Push Code
+     │
+     ▼
+GitHub Actions
+     │
+     ▼
+Run Tests
+     │
+     ▼
+Run Lint
+     │
+     ▼
+Build APK
+     │
+     ▼
+Upload Artifact
 ```
 
 ## Getting Started
